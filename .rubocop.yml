@@ -1,0 +1,14 @@
+AllCops:
+  Exclude:
+    - bin/**/*
+    - config/**/*
+    - db/**/*
+    - spec/dummy/**/*
+    - vendor/**/*
+
+Documentation:
+  Exclude:
+    - spec/**/*
+
+MethodLength:
+  Max: 20
